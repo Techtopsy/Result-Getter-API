@@ -1,0 +1,37 @@
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# This local schema and request fixture currently contain real student data
+/schema.sql
+/body.json
+
+# Database exports and backups
+*.sql.gz
+*.sql.zip
+*.dump
+*.bak
+*.backup
+
+# Local credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Postman local environments can contain tokens and credentials
+/postman/environments/*
+/postman/globals/*
+
+# Runtime and generated files
+*.log
+/vendor/
+/cache/
+/tmp/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
